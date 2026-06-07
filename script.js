@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let imgSrc = "";
             
             // 特別に手動指定された画像マッピング
-            if (shop.name === "レストランベア") {
+            if (shop.name === "レストランペア") {
                 imgSrc = "assets/karaoke_pub.png";
             } else if (shop.name === "康和商店") {
                 imgSrc = "assets/sushi_temaki.png";
