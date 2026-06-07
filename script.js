@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "恵比須屋食堂", comment: "定食・食堂", imgId: "2418" },
         { name: "更科", comment: "そば・うどん", imgId: "2419" },
         { name: "あすなろ", comment: "カフェ・喫茶", imgId: "2420" },
-        { name: "レストランベア", comment: "カラオケパブ", imgId: null },
+        { name: "レストランペア", comment: "カラオケパブ", imgId: null },
         { name: "居酒屋うな天", comment: "居酒屋・うなぎ", imgId: "2421" },
         { name: "かどや食堂", comment: "定食・食堂", imgId: "2422" },
         { name: "こいち", comment: "和食", imgId: "2423" },
