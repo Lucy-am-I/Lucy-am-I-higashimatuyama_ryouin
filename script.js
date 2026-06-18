@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "康和商店", comment: "寿司", imgId: null },
         { name: "くりはら", comment: "和食", imgId: "2428" },
         { name: "川田寿司", comment: "寿司", imgId: "2429" },
-        { name: "つるや", comment: "そば・うどん", imgId: "2430" },
+        { name: "つるや", comment: "焼き鳥", imgId: "2430" },
+        { name: "つるや", comment: "そば屋", imgId: null },
         { name: "串串亭", comment: "焼き鳥", imgId: "2431" },
         { name: "旬彩 食庵", comment: "和食", imgId: "2432" },
         { name: "あずま家", comment: "うどん", imgId: null },
@@ -76,6 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 imgSrc = "assets/sushi_only.png";
             } else if (shop.name === "あずま家") {
                 imgSrc = "assets/azumaya_food.png";
+            } else if (shop.name === "つるや" && shop.comment === "そば屋") {
+                imgSrc = "assets/tsuruya_soba.jpg";
             } else if (index <= 4) {
                 // 0〜4番目までは生成済みの画像を使用
                 imgSrc = `assets/shop_${index}.png`;
